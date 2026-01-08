@@ -137,6 +137,27 @@ HAVING COUNT(*) > 1;
 SELECT * FROM pipeline_last_run ORDER BY last_run_time DESC;
 ```
 
+-- Pro-rated Monthly Charge Calculation
+-- Replicates the 13, 8, 10 day split for January 2025
+SELECT 
+    asset_id,
+    MonthYear,
+    organization_department,
+    days_on_job,
+    -- Calculate Tier based on Total Days for the Asset in that Month
+    CASE 
+        WHEN SUM(days_on_job) OVER(PARTITION BY asset_id, MonthYear) >= 22 THEN 1.00
+        WHEN SUM(days_on_job) OVER(PARTITION BY asset_id, MonthYear) >= 15 THEN 0.75
+        WHEN SUM(days_on_job) OVER(PARTITION BY asset_id, MonthYear) >= 8  THEN 0.50
+        WHEN SUM(days_on_job) OVER(PARTITION BY asset_id, MonthYear) >= 1  THEN 0.25
+        ELSE 0 
+    END AS billing_tier,
+    -- Pro-rate the cost across multiple departments in one month
+    (days_on_job / CAST(SUM(days_on_job) OVER(PARTITION BY asset_id, MonthYear) AS FLOAT)) 
+    * (internal_rental_rate * billing_tier) as monthly_charge
+FROM ExpandedAssetBilling;
+```
+
 ## 🚨 Common Issues
 
 | Issue | Solution |
