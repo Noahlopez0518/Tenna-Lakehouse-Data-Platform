@@ -1,0 +1,67 @@
+# Credentials and Secrets
+*.env
+.env
+config.json
+credentials.json
+*_token.txt
+*_key.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data Files (Don't commit data)
+*.csv
+*.parquet
+*.delta
+data/
+*.json
+!config_template.json
+
+# Logs
+*.log
+logs/
+
+# Microsoft Fabric / Power BI
+*.pbix
+*.pbit
+
+# OS
+Thumbs.db
+.DS_Store
