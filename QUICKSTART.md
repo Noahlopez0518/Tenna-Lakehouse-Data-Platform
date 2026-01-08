@@ -137,6 +137,7 @@ HAVING COUNT(*) > 1;
 SELECT * FROM pipeline_last_run ORDER BY last_run_time DESC;
 ```
 
+```sql
 -- Pro-rated Monthly Charge Calculation
 -- Replicates the 13, 8, 10 day split for January 2025
 SELECT 
