@@ -1,0 +1,15 @@
+# Tenna Lakehouse Data Platform Requirements
+# For use in Microsoft Fabric Notebooks
+
+# Core Libraries
+pyspark==3.3.1
+delta-spark==2.2.0
+pandas==1.5.3
+requests==2.28.2
+
+# Note: These are pre-installed in Microsoft Fabric environments
+# This file is for reference and local development only
+
+# Optional: For local development/testing
+# jupyter==1.0.0
+# notebook==6.5.2v
