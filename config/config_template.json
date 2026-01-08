@@ -1,0 +1,37 @@
+{
+  "api": {
+    "base_url": "https://api.tenna.com/v1",
+    "token": "YOUR_API_TOKEN_HERE",
+    "limit": 100,
+    "max_retries": 5,
+    "retry_delay_seconds": 60
+  },
+  "fabric": {
+    "workspace_name": "YOUR_WORKSPACE_NAME",
+    "lakehouse_name": "Tenna_Raw"
+  },
+  "endpoints": {
+    "static_tables": [
+      "asset-financials",
+      "assets",
+      "asset-assignee-history",
+      "asset-label-associations",
+      "asset-dt-codes",
+      "asset-labels",
+      "asset-organization-history",
+      "asset-registrations",
+      "asset-site-history",
+      "asset-warranties"
+    ],
+    "daily_tables": [
+      "asset-readings-daily",
+      "asset-utilizations-daily",
+      "asset-site-daily-utilizations",
+      "asset-net-working-hours-daily"
+    ]
+  },
+  "pipeline": {
+    "schedule": "0 2 * * *",
+    "description": "Daily refresh at 2 AM"
+  }
+}
