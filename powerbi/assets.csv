@@ -1,0 +1,101 @@
+﻿asset_id,name,make,model,year,status,billable,asset_type,purchase_price
+ASSET-001,Excavator Alpha,Caterpillar,320E,2021,Active,Yes,Excavator,285000
+ASSET-002,Dozer Beta,Komatsu,D65EX,2020,Active,Yes,Bulldozer,320000
+ASSET-003,Loader Gamma,John Deere,644L,2022,Active,Yes,Wheel Loader,245000
+ASSET-004,Crane Delta,Liebherr,LTM1090,2019,Active,Yes,Mobile Crane,850000
+ASSET-005,Forklift Epsilon,Toyota,8FGU25,2023,Active,Yes,Forklift,45000
+ASSET-006,Excavator Zeta,Caterpillar,336F,2020,Maintenance,Yes,Excavator,310000
+ASSET-007,Backhoe Eta,Case,580N,2021,Active,No,Backhoe,95000
+ASSET-008,Skid Steer Theta,Bobcat,S650,2022,Active,Yes,Skid Steer,52000
+ASSET-009,Grader Iota,Caterpillar,140M,2019,Active,Yes,Motor Grader,425000
+ASSET-010,Compactor Kappa,Bomag,BW213D,2023,Active,Yes,Compactor,78000
+ASSET-011,Dump Truck Lambda,Volvo,A40G,2020,Inactive,No,Articulated Truck,380000
+ASSET-012,Bulldozer Mu,John Deere,850L,2021,Active,Yes,Bulldozer,290000
+ASSET-013,Excavator Nu,Hitachi,ZX350,2022,Active,Yes,Excavator,295000
+ASSET-014,Loader Xi,Volvo,L120H,2019,Active,Yes,Wheel Loader,265000
+ASSET-015,Crane Omicron,Tadano,GR1000XL,2023,Active,Yes,Mobile Crane,920000
+ASSET-016,Forklift Pi,Hyster,H80FT,2020,Maintenance,Yes,Forklift,48000
+ASSET-017,Roller Rho,Caterpillar,CS56B,2021,Active,Yes,Road Roller,125000
+ASSET-018,Telehandler Sigma,JCB,540-170,2022,Active,Yes,Telehandler,85000
+ASSET-019,Excavator Tau,Komatsu,PC360,2019,Active,Yes,Excavator,305000
+ASSET-020,Generator Upsilon,Generac,MDG300,2023,Active,No,Generator,35000
+ASSET-021,Excavator Phi,Caterpillar,320,2020,Active,Yes,Excavator,275000
+ASSET-022,Loader Chi,Komatsu,WA380,2021,Active,Yes,Wheel Loader,255000
+ASSET-023,Dozer Psi,John Deere,750K,2019,Active,Yes,Bulldozer,280000
+ASSET-024,Crane Omega,Liebherr,LTM1100,2022,Active,Yes,Mobile Crane,880000
+ASSET-025,Forklift Alpha-2,Toyota,8FGU30,2023,Active,Yes,Forklift,47000
+ASSET-026,Backhoe Beta-2,Case,590SN,2020,Active,Yes,Backhoe,98000
+ASSET-027,Skid Steer Gamma-2,Bobcat,S570,2021,Active,Yes,Skid Steer,49000
+ASSET-028,Grader Delta-2,Caterpillar,12M,2022,Active,Yes,Motor Grader,395000
+ASSET-029,Compactor Epsilon-2,Bomag,BW177D,2019,Maintenance,Yes,Compactor,72000
+ASSET-030,Truck Zeta-2,Volvo,A30G,2023,Active,Yes,Articulated Truck,350000
+ASSET-031,Excavator Eta-2,Hitachi,ZX290,2020,Active,Yes,Excavator,265000
+ASSET-032,Loader Theta-2,John Deere,624L,2021,Active,Yes,Wheel Loader,235000
+ASSET-033,Bulldozer Iota-2,Komatsu,D51PX,2022,Active,Yes,Bulldozer,270000
+ASSET-034,Crane Kappa-2,Tadano,GR800XL,2019,Active,Yes,Mobile Crane,780000
+ASSET-035,Roller Lambda-2,Caterpillar,CS44B,2023,Active,Yes,Road Roller,115000
+ASSET-036,Telehandler Mu-2,JCB,535-140,2020,Active,Yes,Telehandler,78000
+ASSET-037,Generator Nu-2,Generac,MDG250,2021,Active,No,Generator,32000
+ASSET-038,Excavator Xi-2,Caterpillar,330F,2022,Active,Yes,Excavator,285000
+ASSET-039,Forklift Omicron-2,Hyster,H70FT,2019,Active,Yes,Forklift,44000
+ASSET-040,Loader Pi-2,Volvo,L110H,2023,Active,Yes,Wheel Loader,250000
+ASSET-041,Dozer Rho-2,John Deere,850K,2020,Maintenance,Yes,Bulldozer,285000
+ASSET-042,Crane Sigma-2,Liebherr,LTM1095,2021,Active,Yes,Mobile Crane,860000
+ASSET-043,Backhoe Tau-2,Case,580M,2022,Active,Yes,Backhoe,92000
+ASSET-044,Skid Steer Upsilon-2,Bobcat,S630,2019,Active,Yes,Skid Steer,50000
+ASSET-045,Compactor Phi-2,Bomag,BW190AD,2023,Active,Yes,Compactor,75000
+ASSET-046,Excavator Chi-2,Hitachi,ZX250,2020,Active,Yes,Excavator,255000
+ASSET-047,Grader Psi-2,Caterpillar,140K,2021,Active,Yes,Motor Grader,385000
+ASSET-048,Truck Omega-2,Volvo,A35G,2022,Active,Yes,Articulated Truck,360000
+ASSET-049,Loader A3,John Deere,744L,2019,Active,Yes,Wheel Loader,270000
+ASSET-050,Bulldozer B3,Komatsu,D61PX,2023,Active,Yes,Bulldozer,295000
+ASSET-051,Excavator C3,Caterpillar,325F,2020,Active,Yes,Excavator,280000
+ASSET-052,Crane D3,Tadano,GR900XL,2021,Active,Yes,Mobile Crane,820000
+ASSET-053,Forklift E3,Toyota,8FGU35,2022,Active,Yes,Forklift,49000
+ASSET-054,Roller F3,Caterpillar,CS54B,2019,Active,Yes,Road Roller,120000
+ASSET-055,Telehandler G3,JCB,540-180,2023,Active,Yes,Telehandler,88000
+ASSET-056,Generator H3,Generac,MDG275,2020,Active,No,Generator,33000
+ASSET-057,Backhoe I3,Case,590M,2021,Active,Yes,Backhoe,95000
+ASSET-058,Skid Steer J3,Bobcat,S590,2022,Maintenance,Yes,Skid Steer,51000
+ASSET-059,Compactor K3,Bomag,BW180AD,2019,Active,Yes,Compactor,73000
+ASSET-060,Excavator L3,Hitachi,ZX300,2023,Active,Yes,Excavator,275000
+ASSET-061,Loader M3,Volvo,L130H,2020,Active,Yes,Wheel Loader,280000
+ASSET-062,Dozer N3,John Deere,950K,2021,Active,Yes,Bulldozer,315000
+ASSET-063,Grader O3,Caterpillar,160M,2022,Active,Yes,Motor Grader,450000
+ASSET-064,Truck P3,Volvo,A45G,2019,Active,Yes,Articulated Truck,395000
+ASSET-065,Crane Q3,Liebherr,LTM1120,2023,Active,Yes,Mobile Crane,900000
+ASSET-066,Forklift R3,Hyster,H90FT,2020,Active,Yes,Forklift,52000
+ASSET-067,Excavator S3,Caterpillar,340F,2021,Active,Yes,Excavator,320000
+ASSET-068,Roller T3,Caterpillar,CS64B,2022,Active,Yes,Road Roller,135000
+ASSET-069,Telehandler U3,JCB,550-170,2019,Active,Yes,Telehandler,92000
+ASSET-070,Backhoe V3,Case,695M,2023,Active,Yes,Backhoe,105000
+ASSET-071,Skid Steer W3,Bobcat,S650,2020,Active,Yes,Skid Steer,52000
+ASSET-072,Compactor X3,Bomag,BW219D,2021,Active,Yes,Compactor,82000
+ASSET-073,Excavator Y3,Hitachi,ZX380,2022,Active,Yes,Excavator,315000
+ASSET-074,Loader Z3,John Deere,824L,2019,Maintenance,Yes,Wheel Loader,295000
+ASSET-075,Bulldozer A4,Komatsu,D85EX,2023,Active,Yes,Bulldozer,340000
+ASSET-076,Grader B4,Caterpillar,14M,2020,Active,Yes,Motor Grader,415000
+ASSET-077,Crane C4,Tadano,GR1100XL,2021,Active,Yes,Mobile Crane,950000
+ASSET-078,Truck D4,Volvo,A50G,2022,Active,Yes,Articulated Truck,420000
+ASSET-079,Forklift E4,Toyota,8FGU40,2019,Active,Yes,Forklift,54000
+ASSET-080,Generator F4,Generac,MDG350,2023,Active,No,Generator,38000
+ASSET-081,Excavator G4,Caterpillar,350F,2020,Active,Yes,Excavator,335000
+ASSET-082,Roller H4,Caterpillar,CS74B,2021,Active,Yes,Road Roller,145000
+ASSET-083,Telehandler I4,JCB,560-180,2022,Active,Yes,Telehandler,98000
+ASSET-084,Backhoe J4,Case,780M,2019,Active,Yes,Backhoe,115000
+ASSET-085,Skid Steer K4,Bobcat,S750,2023,Active,Yes,Skid Steer,58000
+ASSET-086,Compactor L4,Bomag,BW226D,2020,Active,Yes,Compactor,88000
+ASSET-087,Excavator M4,Hitachi,ZX450,2021,Active,Yes,Excavator,345000
+ASSET-088,Loader N4,Volvo,L150H,2022,Active,Yes,Wheel Loader,315000
+ASSET-089,Dozer O4,John Deere,1050K,2019,Active,Yes,Bulldozer,365000
+ASSET-090,Grader P4,Caterpillar,16M,2023,Active,Yes,Motor Grader,485000
+ASSET-091,Crane Q4,Liebherr,LTM1150,2020,Active,Yes,Mobile Crane,980000
+ASSET-092,Truck R4,Volvo,A60H,2021,Inactive,Yes,Articulated Truck,465000
+ASSET-093,Forklift S4,Hyster,H100FT,2022,Active,Yes,Forklift,58000
+ASSET-094,Excavator T4,Caterpillar,365F,2019,Active,Yes,Excavator,365000
+ASSET-095,Roller U4,Caterpillar,CS78B,2023,Active,Yes,Road Roller,155000
+ASSET-096,Telehandler V4,JCB,540-200,2020,Maintenance,Yes,Telehandler,105000
+ASSET-097,Generator W4,Generac,MDG400,2021,Active,No,Generator,42000
+ASSET-098,Backhoe X4,Case,880M,2022,Active,Yes,Backhoe,125000
+ASSET-099,Compactor Y4,Bomag,BW228D,2019,Active,Yes,Compactor,92000
+ASSET-100,Excavator Z4,Hitachi,ZX490,2023,Active,Yes,Excavator,375000
