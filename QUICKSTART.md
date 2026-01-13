@@ -84,6 +84,17 @@ Use this checklist to get up and running quickly.
 - [ ] Publish to workspace
 - [ ] Set up automatic refresh
 
+## 📊 Sample Dashboard (Fictional Data)
+
+> **⚠️ Note:** A sample Power BI dashboard with **fictional demonstration data** is included in the `/powerbi/` folder. This shows the type of analytics and visualizations delivered by the platform, but uses made-up data to protect sensitive company information.
+
+The actual production dashboard processes real equipment data but cannot be shared publicly due to confidentiality requirements.
+
+**To explore the sample:**
+1. Download files from `/powerbi/` folder
+2. Open `Equipment_Fleet_Analytics_Dashboard.pbix` in Power BI Desktop
+3. Review the visualizations and DAX measures
+
 ## 🔧 Quick Reference
 
 ### Important File Locations
