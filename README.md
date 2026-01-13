@@ -160,15 +160,41 @@ The Fabric Pipeline orchestrates:
 
 **Result**: 100% automated, zero-touch reporting
 
-## 📈 Power BI Dashboard
+## 📊 Power BI Dashboard
 
-The dashboard visualizes:
-- Equipment inventory and status
-- Vehicle tracking and utilization
-- Asset assignments and location history
-- Diagnostic codes and maintenance alerts
-- Financial metrics (rentals, depreciation, ROI)
-- Operational performance KPIs
+> **⚠️ IMPORTANT:** The dashboard shown below uses **completely fictional data** created for demonstration purposes. The actual production dashboard contains sensitive company and client information that cannot be publicly shared.
+
+![Equipment Fleet Analytics Dashboard](images/equipment-fleet-dashboard-overview.png)
+
+This sample dashboard demonstrates the analytical capabilities and visual design delivered to stakeholders, including:
+
+### Key Features:
+- **Real-time KPI monitoring** - Fleet utilization, total hours, asset count, fleet value
+- **Trend analysis** - Utilization patterns over time with target benchmarks
+- **Asset performance** - Top performing equipment identification
+- **Fleet composition** - Distribution by manufacturer and operational status
+- **Interactive filtering** - Drill-down capabilities across all dimensions
+
+### Technical Implementation:
+- **Data Model:** Star schema with 2 fact tables and relationships
+- **DAX Measures:** Custom calculations for utilization, aggregations, and KPIs
+- **Visualizations:** Cards, line charts, bar charts, tables, and pie charts
+- **Design:** Consistent color theming with professional styling
+
+**📁 Full Power BI file (.pbix) and sample data available in the [`/powerbi/`](powerbi/) folder**
+
+The fictional dataset includes:
+- **100 equipment assets** across multiple manufacturers and types
+- **6 months of daily utilization data** 
+- **Multiple work sites** and operator assignments
+- **Complete financial and operational metrics**
+
+### Dashboard Preview Features:
+1. **KPI Cards** - High-level metrics at-a-glance
+2. **Utilization Trend Line Chart** - Historical performance with target line
+3. **Manufacturer Distribution Bar Chart** - Fleet composition analysis  
+4. **Top 10 Assets Table** - Performance leaderboard
+5. **Status Pie Chart** - Operational vs maintenance breakdown
 
 ## 🧪 Data Quality Checks
 
