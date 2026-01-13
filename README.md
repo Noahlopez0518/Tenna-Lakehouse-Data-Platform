@@ -164,7 +164,7 @@ The Fabric Pipeline orchestrates:
 
 > **⚠️ IMPORTANT:** The dashboard shown below uses **completely fictional data** created for demonstration purposes. The actual production dashboard contains sensitive company and client information that cannot be publicly shared.
 
-![Equipment Fleet Analytics Dashboard](images/equipment-fleet-dashboard-overview.png)
+![Equipment Fleet Analytics Dashboard](images/dashboard.png)
 
 This sample dashboard demonstrates the analytical capabilities and visual design delivered to stakeholders, including:
 
