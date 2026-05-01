@@ -5,7 +5,7 @@ An automated data engineering solution built on Microsoft Fabric that centralize
 ## 🎯 Project Overview
 
 This project delivers an end-to-end data platform that:
-- Ingests data from 14 Tenna API endpoints (1,300 to 1.5M rows per endpoint)
+- Ingests data from API endpoints 
 - Stores all data as Delta tables in Microsoft Fabric OneLake
 - Implements incremental loading with deduplication logic
 - Provides automated refresh pipelines for zero-touch reporting
@@ -14,7 +14,7 @@ This project delivers an end-to-end data platform that:
 ## 🏗️ Architecture
 
 ```
-Tenna API (14 endpoints)
+API (20 endpoints)
     ↓
 PySpark Ingestion Layer (Python + Dataflow Gen2)
     ↓
